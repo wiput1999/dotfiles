@@ -32,13 +32,13 @@ export NODEJS_CHECK_SIGNATURES=no
 
 # -- Packages -- #
 
-{{ $rubyPackages := list
-  "tmuxinator"
-}}
+#{{ $rubyPackages := list
+#  "tmuxinator"
+#}}
 
-{{ range sortAlpha $rubyPackages }}
-  gem install {{ . }}
-{{ end -}}
+#{{ range sortAlpha $rubyPackages }}
+# gem install {{ . }}
+#{{ end -}}
 
 asdf reshim
 

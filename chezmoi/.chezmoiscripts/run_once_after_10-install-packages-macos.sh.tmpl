@@ -18,8 +18,6 @@ set -eufo pipefail
 {{ $taps := list
   "homebrew/cask"
   "homebrew/cask-fonts"
-  "koekeishiya/formulae"
-  "yqrashawn/goku"
 -}}
 
 {{ $brews := list
@@ -27,6 +25,7 @@ set -eufo pipefail
   "ghq"
   "git"
   "git-delta"
+  "hub"
 
   "mackup"
   "mas"
@@ -41,16 +40,10 @@ set -eufo pipefail
   "tmux"
   "tree"
   "watch"
-  "zsh"
 
   "helm"
   "kubernetes-cli"
   "kubectx"
-  "stern"
-
-  "koekeishiya/formulae/skhd"
-  "koekeishiya/formulae/yabai"
-  "yqrashawn/goku/goku"
 
   "bat"
   "chezmoi"
@@ -60,6 +53,8 @@ set -eufo pipefail
   "fzf"
   "fzy"
   "zoxide"
+
+  "stripe"
 -}}
 
 {{ $casks := list
@@ -92,11 +87,3 @@ cask "{{ . }}"
 EOF
 
 echo "Start services..."
-
-{{- if not (eq .computer_name "narze-m1-pro") }}
-brew services start skhd
-brew services start yabai
-{{- end }}
-brew services start goku
-
-{{ end -}}
