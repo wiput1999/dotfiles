@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install remotely from single shell command
-# Usage : sh -c "$(curl -fsSL https://raw.githubusercontent.com/wiput1999/dotfiles/remote_install.sh)"
+# Usage : sh -c "$(curl -fsSL https://raw.githubusercontent.com/wiput1999/dotfiles/main/remote_install.sh)"
 
 set -e # -e: exit on error
 
