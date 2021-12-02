@@ -1,4 +1,4 @@
-set -x ASDF_DIR /usr/local/opt/asdf
+set -x ASDF_DIR ~/.asdf
 set -l asdf_data_dir (
   if test -n "$ASDF_DATA_DIR"; echo $ASDF_DATA_DIR;
   else; echo $HOME/.asdf; end)
