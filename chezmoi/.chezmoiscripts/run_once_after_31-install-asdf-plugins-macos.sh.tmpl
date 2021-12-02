@@ -30,16 +30,6 @@ export NODEJS_CHECK_SIGNATURES=no
   asdf global {{ . }} {{ get $plugins . }} || true
 {{ end -}}
 
-# -- Packages -- #
-
-# {{ $rubyPackages := list
-#  "tmuxinator"
-# }}
-
-# {{ range sortAlpha $rubyPackages }}
-# gem install {{ . }}
-# {{ end -}}
-
 asdf reshim
 
 {{ end -}}
