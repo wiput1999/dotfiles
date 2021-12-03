@@ -1,0 +1,6 @@
+package bass
+package fzf
+package gi
+package z
+theme bobthefish
+theme default
