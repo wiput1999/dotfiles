@@ -54,8 +54,6 @@ set -eufo pipefail
   "fzf"
   "fzy"
   "zoxide"
-
-  "stripe"
 -}}
 
 {{ $casks := list
@@ -64,15 +62,13 @@ set -eufo pipefail
   "font-fira-code-nerd-font"
   "font-fantasque-sans-mono"
   "font-fantasque-sans-mono-nerd-font"
+  "font-jetbrains-mono"
+  "font-jetbrains-mono-nerd-font"
 
   "qlcolorcode"
-  "qlstephen"
-  "qlmarkdown"
   "quicklook-json"
   "qlimagesize"
   "suspicious-package"
-  "quicklookase"
-  "qlvideo"
 -}}
 
 brew bundle --no-lock --file=/dev/stdin <<EOF || :
