@@ -1,6 +1,7 @@
 package bass
 package fzf
 package gi
+package https://github.com/jhillyerd/plugin-git
 package z
 theme bobthefish
 theme default
