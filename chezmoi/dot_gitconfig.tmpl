@@ -1,6 +1,9 @@
 [user]
   name = {{ .name }}
   email = {{ .email }}
+	signingkey = C6943371F1C0ED4F
+[commit]
+	gpgsign = true
 [core]
   excludesfile = ~/.gitignore_global
   {{ if .flags.delta_is_not_installed -}} # [git-delta not installed] {{ end -}}
