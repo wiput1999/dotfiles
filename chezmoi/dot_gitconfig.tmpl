@@ -7,7 +7,7 @@
 [core]
   excludesfile = ~/.gitignore_global
   {{ if .flags.delta_is_not_installed -}} # [git-delta not installed] {{ end -}}
-  pager = delta --plus-color="#012800" --minus-color="#340001" --theme='Monokai Extended'
+  pager = delta -- --theme='Monokai Extended'
 [interactive]
   {{ if .flags.delta_is_not_installed -}} # [git-delta not installed] {{ end -}}
   diffFilter = delta --color-only
