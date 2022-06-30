@@ -60,4 +60,9 @@ if not set -q envs_initialized
     # Krew
     # set -gx PATH $PATH $HOME/.krew/bin
 
+
+    # PNPM
+    set -gx PNPM_HOME ~/Library/pnpm
+    set -gx PATH "$PNPM_HOME" $PATH
+
 end
