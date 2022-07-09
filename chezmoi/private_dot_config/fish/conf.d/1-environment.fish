@@ -57,9 +57,8 @@ if not set -q envs_initialized
 
     # set -Ux cabal_helper_libexecdir "$HOME/bin"
 
-    # Krew
-    # set -gx PATH $PATH $HOME/.krew/bin
-
+    # Bun
+    set -Ux BUN_INSTALL "$HOME/.bun"
 
     # PNPM
     set -gx PNPM_HOME ~/Library/pnpm

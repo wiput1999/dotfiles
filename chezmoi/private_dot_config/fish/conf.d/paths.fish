@@ -35,5 +35,7 @@ add_path $HOME/bin $HOME/.local/bin
 add_path $HOME/.asdf/bin
 add_path $HOME/.asdf/shims
 
+add_path $HOME/.bun/bin
+
 # Use gnu manuals too
 set -gx MANPATH /usr/local/opt/coreutils/libexec/gnuman/ $MANPATH
