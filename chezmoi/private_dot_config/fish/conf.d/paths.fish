@@ -36,7 +36,7 @@ add_path $HOME/.asdf/bin
 add_path $HOME/.asdf/shims
 
 add_path $HOME/.bun/bin
-add_path $HOME/Library/pnpm
+add_path $PNPM_HOME
 
 # Use gnu manuals too
 set -gx MANPATH /usr/local/opt/coreutils/libexec/gnuman/ $MANPATH

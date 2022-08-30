@@ -60,4 +60,6 @@ if not set -q envs_initialized
     # Bun
     set -Ux BUN_INSTALL "$HOME/.bun"
 
+    set -gx PNPM_HOME "$HOME/Library/pnpm"
+
 end
