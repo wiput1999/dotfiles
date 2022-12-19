@@ -1,9 +1,9 @@
 [user]
   name = {{ .name }}
   email = {{ .email }}
-	signingkey = C6943371F1C0ED4F
+  signingkey = C6943371F1C0ED4F
 [commit]
-	gpgsign = true
+  gpgsign = true
 [core]
   excludesfile = ~/.gitignore_global
   {{ if .flags.delta_is_not_installed -}} # [git-delta not installed] {{ end -}}
@@ -24,6 +24,8 @@
   process = git-lfs filter-process
 [init]
   defaultBranch = main
+[pull]
+  rebase = true
 [include]
   path = ~/.gitconfig.local
 [url "ssh://git@github.com/{{ .github_user }}"]
