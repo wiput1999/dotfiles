@@ -14,6 +14,8 @@ set -g fish_user_paths /usr/local/opt/gettext/bin $fish_user_paths
 
 source ~/.asdf/asdf.fish
 
+source ~/.config/op/plugins.sh
+
 set -gx PNPM_HOME "$HOME/Library/pnpm"
 
 set -g fish_user_paths /usr/local/opt/icu4c/bin $fish_user_paths

@@ -1,7 +1,6 @@
 [user]
   name = {{ .name }}
   email = {{ .email }}
-  signingkey = C6943371F1C0ED4F
 [commit]
   gpgsign = true
 [core]
@@ -28,3 +27,7 @@
   path = ~/.gitconfig.local
 [url "ssh://git@github.com/{{ .github_user }}"]
   insteadOf = https://github.com/{{ .github_user }}
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
