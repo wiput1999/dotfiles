@@ -18,9 +18,9 @@ alias clipboard "kitty +kitten clipboard"
 alias brewi 'brew install'
 alias brews 'brew search'
 alias brewl 'brew list'
-alias cask 'brew cask'
-alias caski 'brew cask install'
-alias caskl 'brew cask list'
+alias cask 'brew --cask'
+alias caski 'brew install --cask'
+alias caskl 'brew list --cask'
 alias casks 'brew search'
 
 # Make prediction for gd (git diff) better
