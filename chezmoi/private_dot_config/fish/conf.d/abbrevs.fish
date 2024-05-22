@@ -39,6 +39,6 @@ abbr -a yad 'yarn add -D'
 abbr -a yga 'yarn global add'
 abbr -a yrm 'yarn remove'
 
-abbr -a l exa
-abbr -a ls 'exa -lagh --git'
-abbr -a la "exa -baghHliS --git"
+abbr -a l eza
+abbr -a ls 'eza -lagh --git'
+abbr -a la "eza -baghHliS --git"

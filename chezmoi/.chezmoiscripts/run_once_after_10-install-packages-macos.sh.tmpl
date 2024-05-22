@@ -16,8 +16,6 @@ echo "Install common macOS packages"
 set -eufo pipefail
 
 {{ $taps := list
-  "homebrew/cask"
-  "homebrew/cask-fonts"
 -}}
 
 {{ $brews := list
@@ -37,13 +35,12 @@ set -eufo pipefail
   "ncmpcpp"
   "direnv"
 
-  "neofetch"
   "reattach-to-user-namespace"
   "terminal-notifier"
   "tmux"
   "tree"
   "watch"
-  "exa"
+  "eza"
 
   "awscli"
 

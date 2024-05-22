@@ -1,6 +1,6 @@
-# Alias for exa
-alias sl 'exa -lagh'
-alias tree 'exa --tree'
+# Alias for eza
+alias sl 'eza -lagh'
+alias tree 'eza --tree'
 
 # Alias for which
 alias where 'which -a'
@@ -39,7 +39,7 @@ alias scripts 'cat package.json | jq .scripts'
 alias yarnglobal "cd $HOME/.config/yarn/global"
 
 # TODO.md Viewer
-alias notes 'wd notes; and exa'
+alias notes 'wd notes; and eza'
 alias todo 'nvim ~/TODO.md'
 alias purpose 'nvim ~/TODO.md'
 alias goals 'nvim ~/TODO.md'

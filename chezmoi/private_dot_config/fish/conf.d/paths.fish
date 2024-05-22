@@ -7,7 +7,7 @@ add_path /usr/local/opt/coreutils/libexec/gnubin
 
 add_path $GEM_HOME/bin
 
-add_path /opt/homebrew/bin
+add_path /opt/homebrew/bin /opt/homebrew/sbin
 
 add_path /usr/local/bin /usr/bin /usr/local/sbin /usr/libexec
 
